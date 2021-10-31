@@ -1,43 +1,25 @@
+body {
+    background-color: black;
+}
+
 main {
     margin: 20px 0px 0px 0px;
-}
-
-#zoltar-pic {
-    width: inherit;
-    height: auto;
-}
-
-.display-num-tries {
-    background-color: indianred;
-    color: yellow;
-    font-weight: bold;
-    text-align: center;
-    padding: 1% 0%;
-}
-
-.im-thinking, form, .response {
-    padding: 1%;
-    border-radius: 10px;
-    text-align: center;
-    margin-bottom: 1%;
     color: white;
 }
 
-.im-thinking {
-    /* background-color: mediumseagreen; */
-    background-color: steelblue;
+.dojo-survey>h1 {
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 1%;
 }
 
-form {
-    background-color: skyblue;
+.dojo-survey>h1 {
+    background-color: darkslategray;
+    color: gold;
 }
 
-#number_guess {
-    border: none;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px ;
-    text-align: center ;
-}
+
 
 .enter-selection-button {
     background-color: indianred;
