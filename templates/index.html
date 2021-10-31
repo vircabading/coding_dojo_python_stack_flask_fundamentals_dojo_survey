@@ -46,10 +46,26 @@
           <div class="col-md-9">
             <!-- **** Form ******** -->
             <form action='/get_survey' method='post'>
-              <label for=" fname">First name:</label>
-              <input type="text" id="fname" name="fname"><br><br>
-              <label for="lname">Last name:</label>
-              <input type="text" id="lname" name="lname"><br><br>
+              <div>
+                <label for=" f-name">First name:</label>
+                <input type="text" id="f-name" name="f-name">
+              </div>
+              <div>
+                <label for="l-name">Last name:</label>
+                <input type="text" id="l-name" name="l-name">
+              </div>
+              <div>
+                <label for="location">Dojo Location:</label>
+                <input type="text" id="location" name="location">
+              </div>
+              <div>
+                <label for="fav-language">Favorite Language:</label>
+                <input type="text" id="fav-language" name="fav-language">
+              </div>
+              <div>
+                <label for="comment">Comment (optional):</label>
+                <input type="text" id="comment" name="comment" size="40" style="height: 200px">
+              </div>
               <input type="submit" value="Submit">
             </form>
           </div>

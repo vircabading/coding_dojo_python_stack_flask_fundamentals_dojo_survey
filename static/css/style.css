@@ -31,7 +31,9 @@ form {
     padding: 2%;
 }
 
-
+form>* {
+    margin-bottom: 1%;
+}
 
 .enter-selection-button {
     background-color: indianred;
