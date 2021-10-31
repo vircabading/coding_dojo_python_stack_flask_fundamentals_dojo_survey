@@ -11,16 +11,23 @@ main {
     color: white;
 }
 
-.dojo-survey>h1 {
+.dojo-survey {
     padding: 2%;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 1%;
 }
 
-.dojo-survey>h1 {
+.dojo-survey {
     background-color: darkslategray;
     color: gold;
+}
+
+form {
+    border-radius: 10px;
+    margin-bottom: 1%;
+    background-color: darkslategray;
+    height: 800px;
 }
 
 
