@@ -2,6 +2,10 @@ body {
     background-color: black;
 }
 
+.navbar-brand>strong {
+    color: gold;
+}
+
 main {
     margin: 20px 0px 0px 0px;
     color: white;
