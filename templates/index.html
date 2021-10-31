@@ -34,7 +34,7 @@
   <main role="main">
     <main role="main">
       <div class="container">
-        <div class="d-flex">
+        <div class="row">
           <!-- **** LEFT COLUMN IN MAIN AREA ******** -->
           <div class="col-md-3">
             <h1 class='dojo-survey'>
@@ -54,13 +54,28 @@
                 <label for="l-name">Last name:</label>
                 <input type="text" id="l-name" name="l-name">
               </div>
-              <div>
+              <div class="location-form row">
                 <label for="location">Dojo Location:</label>
-                <input type="text" id="location" name="location">
+                <div class="row">
+                  <input type="checkbox" id="location1" name="location1" value="Online">
+                  <label for="location1"> Online</label><br>
+                  <input type="checkbox" id="location2" name="location2" value="Seattle">
+                  <label for="location2"> Seattle</label><br>
+                  <input type="checkbox" id="location3" name="location3" value="San Jose">
+                  <label for="location3"> San Jose</label><br>
+                  <input type="checkbox" id="location4" name="location4" value="Los Angeles">
+                  <label for="location4"> Los Angeles</label><br>
+                  <input type="checkbox" id="location5" name="location5" value="Chicago">
+                  <label for="location5"> Chicago</label><br>
+                  <input type="checkbox" id="location6" name="location6" value="Dallas">
+                  <label for="location5"> Dallas</label><br>
+                  <input type="checkbox" id="location7" name="location7" value="New York">
+                  <label for="location7"> New York</label><br>
+                </div>
               </div>
-              <div class="row"> 
+              <div class="fav-language-form row"> 
                 <label for="fav-language">Favorite Language:</label>
-                <div>
+                <div class="row">
                   <input type="radio" id="html" name="fav-language" value="HTML">
                   <label for="html">HTML</label><br>
                   <input type="radio" id="css" name="fav-language" value="CSS">
@@ -81,7 +96,7 @@
               </div>
               <div>
                 <label for="comment">Comment (optional):</label>
-                <input type="text" id="comment" name="comment" size="40" style="height: 200px">
+                <input type="text" id="comment" name="comment" placeholder="Type Comment Here . . .">
               </div>
               <input type="submit" value="Submit">
             </form>

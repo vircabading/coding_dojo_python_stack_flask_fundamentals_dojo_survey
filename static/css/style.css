@@ -35,6 +35,12 @@ form>* {
     margin-bottom: 1%;
 }
 
+.location-form>*, .location-form>*>*, .fav-language-form>*, .fav-language-form>*>* {
+    margin: 0px 10px 0px 0px;
+    align-items: center;
+}
+
+
 .enter-selection-button {
     background-color: indianred;
     border: none;
