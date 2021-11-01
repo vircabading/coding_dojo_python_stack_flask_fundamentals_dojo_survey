@@ -35,10 +35,23 @@ form>* {
     margin-bottom: 1%;
 }
 
+#f-name, #l-name {
+    margin: 0% 2%;
+    width: 50%;
+}
+
 .location-form>*, .location-form>*>*, .fav-language-form>*, .fav-language-form>*>* {
-    margin: 0px 10px 0px 0px;
+    margin: 0% 2%;
     align-items: center;
 }
+
+#comment {
+    height: 100px;
+    width: 100%;
+}
+
+
+
 
 
 .enter-selection-button {
