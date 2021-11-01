@@ -23,7 +23,7 @@ main {
     color: gold;
 }
 
-form {
+form, .display-result {
     border-radius: 10px;
     margin-bottom: 1%;
     background-color: darkslategray;
@@ -31,7 +31,7 @@ form {
     padding: 2%;
 }
 
-form>* {
+form>*, .display-result>* {
     margin-bottom: 1%;
 }
 

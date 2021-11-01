@@ -16,8 +16,8 @@ def index():
     return render_template("index.html")
 
 
-@app.route('/get_survey', methods=['POST'])                                     # route that receives a post
-def increment_by():
+@app.route('/process', methods=['POST'])                                     # route that receives a post
+def process():
     print("::: FORM RECEIVED :::")
     # print(request.form)
     session['f-name'] = request.form['f-name']
@@ -27,7 +27,7 @@ def increment_by():
     session['comment'] = request.form['comment']
     print(f"::: Name: {session['f-name']} {session['l-name']} :: location: {session['location']} :::")
     print(f"::: Favorite Language: {session['fav-language']} :: Comment: {session['comment']} :::")
-    return redirect("/")
+    return render_template("result.html")
 
 # **** Ensure that if the user types in any route other than the ones specified, 
 #           they receive an error message saying "Sorry! No response. Try again ****
