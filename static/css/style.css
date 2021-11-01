@@ -27,7 +27,7 @@ form, .display-result {
     border-radius: 10px;
     margin-bottom: 1%;
     background-color: darkslategray;
-    height: 800px;
+    /* height: 800px;  */
     padding: 2%;
 }
 
@@ -50,26 +50,7 @@ form>*, .display-result>* {
     width: 100%;
 }
 
-
-
-
-
-.enter-selection-button {
-    background-color: indianred;
-    border: none;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    color: white;
-    font-weight: bold;
-    padding: 0px 10px ;
-}
-
-.enter-selection-button:hover, .enter-selection-button:active {
-    background-color: yellow;
-    color: steelblue;
-}
-
-.play-again {
+.return-home {
     background-color: yellow;
     color: navy;
     border: none;
